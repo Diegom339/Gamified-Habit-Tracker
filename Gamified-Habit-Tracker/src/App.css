@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+  background-color: #f8f9fa;
+  color: #003e7b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Form styling */
+form input {
+  border-radius: 6px;
+}
+
+form .btn {
+  border-radius: 6px;
+}
+
+/* Habit cards */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* XP progress bar */
+.progress {
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover:enabled {
+  transform: scale(1.03);
+}
+
+/* Responsive layout fix for habit cards */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
