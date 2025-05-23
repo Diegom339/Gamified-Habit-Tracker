@@ -10,10 +10,10 @@ Built with React, Firebase Auth, and Bootstrap.
 ## 📸 Preview
 
 ### Habit Dashboard  
-![Habit Page](./Habitpage.jpeg)
+![Habit Page](./src/screenshots/habitpage.jpeg)
 
 ### Dark Mode Login  
-![Login Page](./Loginpage.jpeg)
+![Login Page](./src/screenshots/loginpage.jpeg)
 
 ---
 
